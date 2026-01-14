@@ -20,6 +20,7 @@ import {
 import MohAutos from "../Image/Moh-Autos.png";
 import Purity from "../Image/Purity.png"
 import listify from "../Image/listify .png"
+import Lumina from "../Image/Lumina.png"
 
 export const projects = [
   {
@@ -45,9 +46,18 @@ export const projects = [
   title: "Listify",
   description:
     "A modern task management web app designed to help users organize tasks efficiently with a clean UI and smooth user experience.",
-  tech: ["React", "CSS"],
+  tech: ["React", "Tailwind CSS"],
   live: "https://listify-gilt.vercel.app",
   github: "https://github.com/Abrahamalejolowo/listify.git",
+},
+ {
+  img: Lumina,
+  title: "Lumina",
+  description:
+    "A modern e-commerce web app designed to provide a seamless shopping experience with a clean UI and intuitive navigation.",
+  tech: ["React", "Tailwind CSS"],
+  live: "https://lumina-omega.vercel.app",
+  github: "https://github.com/Abrahamalejolowo/lumina.git",
 },
 
 ];
@@ -73,5 +83,5 @@ export const backendSkills = [
   { name: "MongoDB", icon: SiMongodb },
   { name: "NPM", icon: SiNpm },
   { name: "Git", icon: FaGitAlt },
-  // { name: "VS Code", icon: SiVisualstudiocode },
+ 
 ]

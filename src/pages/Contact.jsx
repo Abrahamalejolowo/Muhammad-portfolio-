@@ -106,7 +106,7 @@ export default function Contact() {
             <button
               type="submit"
               className="inline-flex items-center justify-center gap-2 
-                         rounded-full bg-blue-600 text-white px-6 py-3 
+                         rounded-full bg-[#1d438a] text-white px-6 py-3 
                          font-medium  hover:bg-blue-700 transition"
             >
               <Send className="w-4 h-4" />

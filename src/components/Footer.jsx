@@ -10,9 +10,9 @@ export default function Footer() {
   return (
     <footer id="contact" className="py-10 border-t  bg-[#F8FAFC]">
       <div className="max-w-6xl mx-auto px-4 flex justify-between items-center text-sm">
-        <p>© {new Date().getFullYear()} muhammad Muhideem</p>
+        <p>© {new Date().getFullYear()} muhammad Muhideen</p>
         <div className="space-x-4 flex">
-          <SocialIcon icon={FaGithub} link="https://github/" />
+          <SocialIcon icon={FaGithub} link="https://github/imammuhammadmuhideen " />
           <SocialIcon icon={FaWhatsapp} link="https://wa.me/2349134809312" />
           <SocialIcon icon={FaTwitter} link="https://twitter.com/@awwal_011" />
           <SocialIcon

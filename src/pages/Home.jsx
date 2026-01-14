@@ -53,7 +53,7 @@ export default function Home() {
             </motion.p>
 
             <motion.h1
-              className="mt-4 text-4xl md:text-6xl font-extrabold leading-tight bg-gradient-to-r from-blue-600 to-sky-500 bg-clip-text text-transparent"
+              className="mt-4 text-4xl md:text-6xl font-extrabold leading-tight bg-gradient-to-r from-[#1d438a] to-sky-500 bg-clip-text text-transparent"
               initial={{ opacity: 0, y: -30 }}
               animate={{ opacity: 1, y: 0 }}
             >
@@ -78,10 +78,10 @@ export default function Home() {
 
             {/* CTA */}
             <div className="mt-10 flex flex-wrap justify-center lg:justify-start gap-4">
-              <a  href="#contact" className="px-7 py-3 rounded-xl bg-blue-600 text-white font-medium shadow-lg hover:scale-105 transition">
+              <a  href="#contact" className="px-7 py-3 rounded-xl bg-[#1d438a] text-white font-medium shadow-lg hover:scale-105 transition">
                 Contact Me
               </a>
-              <a className="px-7 py-3 rounded-xl border border-slate-300 hover:bg-slate-100 transition">
+              <a href="/resume.pdf" className="px-7 py-3 rounded-xl border border-slate-300 hover:bg-slate-100 transition">
                 Download Resume
               </a>
             </div>
@@ -96,8 +96,8 @@ export default function Home() {
               <SocialIcon icon={FaEnvelope} link="https://gmail.com/in/imammuhammadmuhideen@gmail.com" label="Email" />
               <SocialIcon icon={FaGithub} link="https://github.com/mohman8" label="GitHub" />
              <SocialIcon icon={FaTwitter} link="https://twitter.com/@awwal_011" />
-              <SocialIcon icon={FaLinkedin} link="https://linkedin.com/" label="LinkedIn" />
-              <SocialIcon icon={FaInstagram} link="https://instagram.com/" label="Instagram" />
+              <SocialIcon icon={FaLinkedin} link="https://linkedin.com/muhammadmuhideen" label="LinkedIn" />
+              <SocialIcon icon={FaInstagram} link="https://instagram.com/muhammadmuhideen" label="Instagram" />
             </motion.div>
           </div>
 
@@ -109,7 +109,7 @@ export default function Home() {
           >
             <div className="w-72 h-72 rounded-full border border-blue-300/40 flex items-center justify-center relative">
               <motion.div
-                className="absolute w-10 h-10 bg-blue-600 rounded-full"
+                className="absolute w-10 h-10 bg-[#1d438a] rounded-full"
                 animate={{ rotate: 360 }}
                 transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
                 style={{ transformOrigin: "140px 140px" }}
@@ -148,12 +148,13 @@ export default function Home() {
           <motion.a
             href="/resume.pdf"
             target="_blank"
-            className="inline-block mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition"
+            className="inline-block mt-6 px-6 py-3 bg-[#1d438a] text-white rounded-lg font-medium hover:bg-blue-700 transition"
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.8 }}
           >
+            
             View Resume
           </motion.a>
         </div>
