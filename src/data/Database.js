@@ -17,10 +17,11 @@ import {
   SiNpm,
 
 } from "react-icons/si";
-import MohAutos from "../Image/Moh-Autos.png";
-import Purity from "../Image/Purity.png"
-import listify from "../Image/listify .png"
-import Lumina from "../Image/Lumina.png"
+import MohAutos from "../image/Moh-Autos.png";
+import Purity from "../Image/Purity.png";
+import Listify from "../Image/Listify.png";
+import Lumina from "../Image/Lumina.png";
+
 
 export const projects = [
   {
@@ -42,7 +43,7 @@ export const projects = [
     github: "https://github.com/devsamahd/purity-ui-dashboard.git",
   },
  {
-  img: listify,
+  img: Listify,
   title: "Listify",
   description:
     "A modern task management web app designed to help users organize tasks efficiently with a clean UI and smooth user experience.",
