@@ -18,9 +18,9 @@ import {
 
 } from "react-icons/si";
 import MohAutos from "../image/Moh-Autos.png";
-import Purity from "../Image/Purity.png";
-import Listify from "../Image/Listify.png";
-import Lumina from "../Image/Lumina.png";
+import Purity from "../image/Purity.png";
+import Listify from "../image/Listify.png";
+import Lumina from "../image/Lumina.png";
 
 
 export const projects = [
@@ -28,7 +28,7 @@ export const projects = [
     img: MohAutos,
     title: "MohAutos",
     description:
-      "A complete car sales platform that allows users to browse, view, and purchase cars with a clean, modern, and user-friendly interface.",
+      "A complete car sales  platform that allows users to browse, view, and purchase cars with a clean, modern, and user-friendly interface.",
     tech: ["React", "Tailwind CSS", "Firebase"],
     live: "",
     github: "https://github.com/Abrahamalejolowo/moh-autos.git",
