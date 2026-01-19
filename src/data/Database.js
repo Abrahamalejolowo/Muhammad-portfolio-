@@ -17,7 +17,7 @@ import {
   SiNpm,
 
 } from "react-icons/si";
-import MohAutos from "../image/Moh-Autos.png";
+import MohAutos from "../image/MohAutos.png"
 import Purity from "../image/Purity.png";
 import Listify from "../image/Listify.png";
 import Lumina from "../image/Lumina.png";
